@@ -5,8 +5,8 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 URL = "https://netenrich.opsramp.com/"
-key = "cHrCgP3TWVtv3EwMzah3hfjH34eXUHM8"
-secret = "c55PPRzMPg3BWp5tXZMwwT8Gzpq6GmUbBwWnAfdhJZjmVHfXB59ZMM5rZY3kA5wf"
+key = ""
+secret = ""
 
 def token_generation():
     try:
