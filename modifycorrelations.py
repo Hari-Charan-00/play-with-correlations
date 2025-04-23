@@ -4,7 +4,7 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-URL = "https://netenrich.opsramp.com/"
+URL = ""
 key = ""
 secret = ""
 
@@ -61,7 +61,7 @@ def main():
     access_token = token_generation()
     if access_token:
         try:
-            df = pd.read_excel("C:\\Users\\hari.boddu\\Downloads\\Correlation_Policies_OFF.xlsx")
+            df = pd.read_excel("Correlation_Policies_OFF.xlsx")
             for index, row in df.iterrows():
                 tenantname = row.get("Client Name")
                 tenantId = row.get("Tenant ID")
